@@ -1,14 +1,14 @@
 {
-  "name": "my-component",
+  "name": "@squirrel-studios/video-player",
   "version": "0.0.1",
-  "description": "Stencil Component Starter",
-  "main": "dist/mycomponent.js",
+  "description": "Video Player",
+  "main": "dist/video-player.js",
   "types": "dist/types/index.d.ts",
   "collection": "dist/collection/collection-manifest.json",
   "files": [
     "dist/"
   ],
-  "browser": "dist/mycomponent.js",
+  "browser": "dist/video-player.js",
   "scripts": {
     "build": "stencil build",
     "dev": "sd concurrent \"stencil build --dev --watch\" \"stencil-dev-server\" ",
@@ -28,14 +28,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ionic-team/stencil-component-starter.git"
+    "url": "git+https://github.com/SquirrelStudios/video-player.git"
   },
   "author": "Ionic Team",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ionic-team/stencil"
+    "url": "https://github.com/SquirrelStudios/video-player"
   },
-  "homepage": "https://github.com/ionic-team/stencil",
+  "homepage": "https://squirrel-studios.io",
   "jest": {
     "transform": {
       "^.+\\.(ts|tsx)$": "<rootDir>/node_modules/@stencil/core/testing/jest.preprocessor.js"
