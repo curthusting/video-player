@@ -13,7 +13,7 @@ export class MyComponent {
   render() {
     return (
       <div>
-        Hello, World! I'm {this.first} {this.last}
+        I am a sub module and my name is {this.first} {this.last}
       </div>
     );
   }

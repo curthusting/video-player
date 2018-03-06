@@ -2,13 +2,13 @@
   "name": "@squirrel-studios/video-player",
   "version": "0.0.1",
   "description": "Video Player",
-  "main": "dist/video-player.js",
+  "main": "dist/my-component.js",
   "types": "dist/types/index.d.ts",
   "collection": "dist/collection/collection-manifest.json",
   "files": [
     "dist/"
   ],
-  "browser": "dist/video-player.js",
+  "browser": "dist/my-component.js",
   "scripts": {
     "build": "stencil build",
     "dev": "sd concurrent \"stencil build --dev --watch\" \"stencil-dev-server\" ",

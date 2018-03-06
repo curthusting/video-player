@@ -1,6 +1,7 @@
 exports.config = {
-  namespace: 'mycomponent',
+  namespace: 'my-component',
   generateDistribution: true,
+  generateWWW: false,
   serviceWorker: false
 };
 
